@@ -49,7 +49,7 @@ function Background({ movies }) {
   return (
     <div className="background" aria-label="background">
       <img
-        className="background-image"
+        className="backdrop-image"
         src={`https://image.tmdb.org/t/p/original${backgroundPath}`}
         alt={backgroundTitle}
       />

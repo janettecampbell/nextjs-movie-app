@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Background from "@/components/layout/Background";
 import Footer from "@/components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
 
 export default function Home() {
   const [movies, setMovies] = useState(null);
@@ -17,9 +18,7 @@ export default function Home() {
   return (
     <div className="home-page" aria-label="home page">
       {movies && <Background movies={movies} />}
-      <header>
-
-      </header>
+      <Navbar />
       <main>
       
       </main>
