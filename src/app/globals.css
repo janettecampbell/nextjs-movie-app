@@ -17,3 +17,31 @@
   width: 100%;
   overflow: auto;
 }
+
+/* FOOTER */
+
+.tmdb-attribution {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.tmdb-attribution-scroll {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.tmdb-attribution img {
+  position: relative;
+  display: block;
+  float: right;
+  height: 45px;
+}
+
+.tmdb-attribution-scroll img {
+  position: relative;
+  display: block;
+  float: right;
+  height: 45px;
+}

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Background from "@/components/layout/Background";
+import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   const [movies, setMovies] = useState(null);
@@ -22,6 +23,9 @@ export default function Home() {
       <main>
       
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
     
   );
